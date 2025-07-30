@@ -1,0 +1,40 @@
+body {
+    background: #f0f2f5;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    background: white;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+#drop-area {
+    border: 2px dashed #0d6efd;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: #eaf4ff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#drop-area.highlight {
+    background-color: #d6eaff;
+}
+
+#fileElem {
+    display: none;
+}
+
+label[for="fileElem"] {
+    cursor: pointer;
+}
+
+img {
+    max-height: 400px;
+    object-fit: contain;
+}
